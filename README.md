@@ -5,7 +5,7 @@ Digital Image Processing enhances and analyzes images for use in fields like med
 Image Super-Resolution: Classical and Deep Learning Approaches
 This project aims to enhance the quality of low-resolution images using digital image processing techniques. It compares classical interpolation methods with a deep learning-based Super-Resolution Convolutional Neural Network (SRCNN) to evaluate their effectiveness in reconstructing high-resolution images. The notebook offers a detailed, step-by-step implementation pipeline, making it a valuable resource for understanding super-resolution in both academic and practical contexts.
 
-📌 Project Objectives
+## Project Objectives
 Simulate low-resolution images by downsampling high-resolution originals.
 
 Explore and compare five classical interpolation techniques: Nearest Neighbor, Bilinear, Bicubic, Lanczos, and Spline.
@@ -15,8 +15,7 @@ Implement a deep learning-based SRCNN model to improve image reconstruction qual
 Apply denoising before interpolation to reduce artifacts and enhance visual fidelity.
 
 Evaluate performance using standard image quality metrics: PSNR and SSIM.
-
-🔧 Techniques Implemented
+##  Techniques Implemented
 1. Preprocessing
 Load the original image and convert color spaces if needed.
 
@@ -49,7 +48,7 @@ PSNR (Peak Signal-to-Noise Ratio): Measures pixel-level fidelity between reconst
 
 SSIM (Structural Similarity Index): Quantifies perceived visual quality by assessing structural similarity.
 
-Summary
+## Summary
 Interpolation-based super-resolution methods were among the earliest approaches to image upscaling, offering simple, fast solutions without learning or external data. While effective for moderate enhancements, they cannot restore lost fine textures or details, motivating the use of deep learning models like SRCNN for superior results.
 
 This project presents a comprehensive analysis and comparison of both classical and modern techniques, providing valuable insights for selecting appropriate methods in real-world image enhancement tasks.
